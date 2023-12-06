@@ -16,6 +16,8 @@ class Window(QWidget):
         layout.addWidget(QPushButton("Top"))
         layout.addWidget(QPushButton("Center"))
         layout.addWidget(QPushButton("Bottom"))
+        # CRIA UM ESPAÇADOR sem afetar a posição ou tamnho dos widgets
+        layout.addStretch()
         self.setLayout(layout)
 
 
