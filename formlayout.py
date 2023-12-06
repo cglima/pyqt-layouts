@@ -24,6 +24,7 @@ class Window(QWidget):
         # Create a QFormLayout instance
         layout = QFormLayout()
         # Add widgets to the layout
+        layout.setVerticalSpacing(30)
         layout.addRow("Name:", QLineEdit())
         layout.addRow("Job:", QLineEdit())
         emailLabel = QLabel("Email:")

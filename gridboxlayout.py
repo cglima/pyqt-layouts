@@ -32,6 +32,7 @@ class Window(QWidget):
         # Create a QGridLayout instance
         layout = QGridLayout()
         # Add widgets to the layout
+        layout.setSpacing(30)
         layout.addWidget(QPushButton("Button at (0, 0)"), 0, 0)
         layout.addWidget(QPushButton("Button at (0, 1)"), 0, 1)
         layout.addWidget(QPushButton("Button Spans two Cols"), 1, 0, 1, 2)
